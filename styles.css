@@ -65,7 +65,7 @@
     border-radius:500px;
     padding:7px;
     margin:12px;
-    color:black;
+    color:#f26002;
     text-align: center;
     border: solid #f26002 3px;
     text-decoration:none;
@@ -97,6 +97,11 @@ h2{
     font-family: 'Roboto';
 }
 @media all and (min-width: 768px) {
+
+    .title_hero{
+        font-size: 78px;
+        line-height: 5rem;
+    }
     .newyear {
         grid-template: "box_1 box_2 box_3";
     }
@@ -111,9 +116,10 @@ h2{
     width: auto;
     color:white;
     text-decoration: none;
-    padding: 3px;
+    padding: 7px;
     font-family: 'Roboto';
     font-size: 20px;
+    margin-bottom: 25px;
 }
 .container_button{
     display: flex;
@@ -194,3 +200,13 @@ h2{
         font-family: 'Roboto';
     }
 }
+
+@media all and (min-width: 1280px) {
+    .hero{
+        display:flex;
+        align-items:center;
+    }
+    .connect{
+        width:70vw;
+    }
+  }
