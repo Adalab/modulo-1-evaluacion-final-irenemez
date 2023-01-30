@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.menu_icon {
+    position: fixed;
+    display: flex;
+    background-color: #f26002;
+    width: 3.4rem;
+    height: 3.4rem;
+    justify-content: center;
+    align-items: center;
+    z-index:1;
+}
+.hero { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+        
+        width: 100%;
+        height: 70vh;
+        color:white;
+        background-image:url('./images/cover.jpeg');
+        background-size: cover;
+}
+.title_hero{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 5rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+.text_hero{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 17px;
+      
+    font-family: 'Roboto'; 
+}
+.boton_connect {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.connect {
+    background-color: white;
+    padding:12px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    height: 400px;
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+.shop_button{
+    border-radius:500px;
+    padding:7px;
+    margin:12px;
+    color:black;
+    text-align: center;
+    border: solid #f26002 3px;
+    text-decoration:none;
+    font-family: 'Roboto';
+}
+.orange_text{
+    color: #f26002;
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+h2{
+    padding-top:25px;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+}
+.newyear {
+    background-color:#f2f2f2;
+    padding:12px;
+    display: flex;
+    height: auto;
+    display: grid;
+    grid-gap: 40px;
+    margin: 40px 0;
+    text-align: center;
+    font-size:22px ;
+    line-height: 40px;
+    font-family: 'Roboto';
+}
+@media all and (min-width: 768px) {
+    .newyear {
+        grid-template: "box_1 box_2 box_3";
+    }
+  }
+.title_item{
+    font-weight: bold;
+    font-size: 20px;
+}
+.start_button{
+    background-color: #f26002;
+    border-radius: 500px;
+    width: auto;
+    color:white;
+    text-decoration: none;
+    padding: 3px;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.container_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color:#f2f2f2; 
+}
+.up_button{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translateY(20px);
+    text-align: center;
+}
+.grayarea{
+    background-color: #f2f2f2;
+}
+.footer{
+    background-color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto'; 
+}
+.footer_media{
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Roboto';
+ }
+ .footer_items{
+    color: white;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Roboto';
+ }
+ .heart-span{
+    color:#f26002;
+    font-family: 'Roboto';
+ }
+ @media all and (min-width: 768px) {
+    .start_button{
+        text-align: center;
+    }
+    .center_button{
+        display:flex;
+        justify-content: center;
+    }
+    .footer {
+        
+        display: flex;
+        flex-direction: row;
+        background-color: #4a4a4a;
+    }
+    .footer_items{
+        color: white;
+        text-decoration: none;
+        text-transform:capitalize;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        font-family: 'Roboto';
+    }
+}
